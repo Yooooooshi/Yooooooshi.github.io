@@ -55,6 +55,12 @@ body {
     text-align: center;
 }
 
+.pic h5 {
+	text-align: left;
+	text-align: justify;
+	font-size: 80%;
+}
+
 h5 {
 	text-align: left;
 	text-align: justify;
@@ -167,16 +173,18 @@ div.ina {
 
 
  .galeria2 {
+ width: 100%;
  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: auto auto auto auto;
+ grid-gap: 1.3%;
+  grid-row-gap: 0;
+  grid-template-columns: 24% 24% 24% 24%;
 -webkit-column-count: 4;
 -moz-column-count: 4;
 column-count: 4;
--webkit-column-width: 25%;
--moz-column-width: 25%;
-column-width: 25%; 
-margin-left:;}
+-webkit-column-width: 24%;
+-moz-column-width: 24%;
+column-width: 24%; 
+margin: 0;}
 
 .galeria2 .pics {
 -webkit-transition: all 350ms ease;
@@ -190,6 +198,7 @@ transform: scale(1); }
 
 .nawigacja li {
 	display: inline;
+	float: center;
 	text-align: center;
 
 }
@@ -203,8 +212,8 @@ transform: scale(1); }
 	padding: 15px 24px;
 	text-align: center;
 	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
+	
+	font-size: 12px;
 	margin: 4px 4px;
 	cursor: pointer;
 }
@@ -216,6 +225,7 @@ transform: scale(1); }
 	padding-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center;
 
 
 }
@@ -224,6 +234,9 @@ transform: scale(1); }
 	
 }
 
-
+.pic {
+	display: table-cell;
+	max-height: 0.25 * width;
+}
 
 
