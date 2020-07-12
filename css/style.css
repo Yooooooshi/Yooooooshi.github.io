@@ -141,7 +141,7 @@ div.ina {
 */
 
 .carousel-item-test>img {
-        height: 510px;
+        max-height: 510px;
         object-fit: scale-down;
 }
 
