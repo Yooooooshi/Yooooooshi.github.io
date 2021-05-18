@@ -141,7 +141,8 @@ div.ina {
 */
 
 .carousel-item-test>img {
-        max-height: 650px;
+/*max-height: 650px;  ???????????????*/
+		max-height: 30.5vw;
         object-fit: scale-down;
 }
 
@@ -158,6 +159,7 @@ div.ina {
  	margin: 0 auto;
  	padding-top: 2rem;
  	max-height: 100px;
+ 	background-color: ;
 
  }
 
@@ -221,17 +223,14 @@ transform: scale(1); }
 .button {
 	background-color: #9e9e9e;
 	border: none;
-	color: white;
-	padding: 15px 20px;
-	padding-left: 0px;
-	padding-right: 60px;
-	text-align: left;
+	color: black;
+	padding: 7px 20px;
+	padding-left: 7px;
+	padding-right: 40px;
+	text-align: center;
 	text-decoration: none;
-	font-size: 12px;
-	margin-top: 4px;
-	margin-bottom: 4px;
-	margin-right: 0px;
-	margin-left: 0px;
+	font-size: 15px;
+	
 	cursor: pointer;
 	font-size: 15px;
 }
@@ -259,10 +258,23 @@ transform: scale(1); }
 
 .pic {
 	display: table-cell;
-	max-height: 0.25 * width;
+	
+}
+
+.img-fluid {
+	width: 100%;
+	object-fit: cover;
+	
+
+}
+
+.kwadrat {
+  width: 100%;
+  height: 13vw;
+
 }
 
 #specjalny {
-	padding-right: 0px;
+	padding-right: 1%;
 }
 
