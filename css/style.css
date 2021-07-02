@@ -105,6 +105,13 @@ div.ina {
 }
 
 
+.text_organizacja {
+	font-size: 1.8rem;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
 .gallery_text {
 	font-size: 2rem;
 	width: 100%;
